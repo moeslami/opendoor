@@ -18,7 +18,7 @@ System.register(['angular2/core'], function(exports_1) {
         execute: function() {
             TopNavComponent = (function () {
                 function TopNavComponent() {
-                    this.loginTitle = 'Welcome Mohammad!';
+                    this.loginTitle = 'Welcome!!!';
                 }
                 TopNavComponent.prototype.ngOnInit = function () {
                     $('.custom-menu a[href^="#"], .intro-scroller .inner-link').on('click', function (e) {

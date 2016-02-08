@@ -21,11 +21,6 @@ System.register(['angular2/core', '../shared/topnav.component'], function(export
         execute: function() {
             HomeComponent = (function () {
                 function HomeComponent() {
-                    this.loginTitle = 'Welcome Mohammad!!!';
-                    this.hero = {
-                        id: 1,
-                        name: 'Windstorm'
-                    };
                 }
                 HomeComponent = __decorate([
                     core_1.Component({
